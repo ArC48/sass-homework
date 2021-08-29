@@ -1,0 +1,99 @@
+@import "./palette";
+
+@mixin center{
+    margin-top: 7.5rem;
+    margin-left: 23.5rem;
+}
+
+@mixin header {
+    color: $header-color;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: -25px;
+    margin-bottom: 3rem;
+    margin-left: -1px;
+}
+
+@mixin container {
+    height: 510px;
+    width: 1201px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+@mixin container-header {
+    font-weight: 900;
+    font-size: 14px;
+    text-align: left;
+    color: $text-color1;
+    letter-spacing: 2px;
+    word-spacing: -4px;
+}
+
+@mixin container-text {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    margin-top: -17px;
+    line-height: 1.4rem;
+    width: 21rem;
+    color: $text-color2;
+    margin-left: 1px;
+}
+
+@mixin circle_figure($circle-border, $circle-color){
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: 5px solid $circle-border;
+    background-color: $circle-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.6rem;
+    margin-left: 3rem;
+}
+
+@mixin single-container($bg-color){
+    height: 148px;
+    width: 568px;
+    border: 1px solid #E2E6E7;
+    border-radius: 12px;
+    margin-bottom: 1.9rem;
+    margin-right: 29px;
+    background-color: $bg-color;
+
+@mixin flex-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 8.8rem;
+    margin-top: -5rem;
+}
+
+@mixin last-paragraph {
+    width: 977px;
+    height: 39px;
+    margin-top: -18px;
+}
+
+@mixin span {
+    text-align: end;
+    transform: translate(22%, -3.4rem);
+    font-weight: 900;
+    color: $text-color2;
+}
+
+@mixin last-span {
+    text-align: end;
+    transform: translate(42rem, -2.4rem);
+    font-weight: 900;
+}
+}
