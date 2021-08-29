@@ -1,0 +1,68 @@
+@import "./shared";
+@import "./palette";
+@import "./reset";
+
+body{
+    @include body();
+    @include center();
+}
+
+h1{
+    @include header();
+}
+
+.first{
+    @include circle_figure($circle1-border, $circle1)
+}
+.second{
+    @include circle_figure($circle2-border, $circle2)
+}
+.third{
+    @include circle_figure($circle3-border, $circle3)
+}
+.fourth{
+    @include circle_figure($circle4-border, $circle4)
+}
+.fifth{
+    @include circle_figure($circle5-border, $circle5)
+}
+
+.single-container{
+    @include single-container();
+}
+
+.container{
+    @include container();
+}
+
+h2{
+    @include container-header();
+}
+
+p{
+    @include container-text();
+}
+
+.big{
+    flex: 1;
+}
+
+.flex-row{
+    @include flex-row();
+}
+
+.flex-column{
+    @include flex-column();
+}
+
+#last-p{
+    @include last-paragraph();
+}
+
+span{
+    @include span();
+}
+
+#span{
+    @include last-span();
+}

@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 1920px;
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+  margin-top: 7.5rem;
+  margin-left: 23.5rem;
+}
+
+h1 {
+  color: #2C3E50;
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: -25px;
+  margin-bottom: 3rem;
+  margin-left: -1px;
+}
+
+.first {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  border: 5px solid #F9B718;
+  background-color: #FFC12D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2.6rem;
+  margin-left: 3rem;
+}
+
+.second {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  border: 5px solid #7BC200;
+  background-color: #97E411;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2.6rem;
+  margin-left: 3rem;
+}
+
+.third {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  border: 5px solid #F55C43;
+  background-color: #FD7761;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2.6rem;
+  margin-left: 3rem;
+}
+
+.fourth {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  border: 5px solid #47B4F6;
+  background-color: #6FD9FC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2.6rem;
+  margin-left: 3rem;
+}
+
+.fifth {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  border: 5px solid #8781BD;
+  background-color: #A39CDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2.6rem;
+  margin-left: 3rem;
+}
+
+.single-container {
+  height: 148px;
+  width: 568px;
+  background-color: #FFFFFF;
+  border: 1px solid #E2E6E7;
+  border-radius: 12px;
+  margin-bottom: 1.9rem;
+  margin-right: 29px;
+}
+
+.container {
+  height: 510px;
+  width: 1201px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 14px;
+  text-align: left;
+  color: #2C3E50;
+  letter-spacing: 2px;
+  word-spacing: -4px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+  margin-top: -17px;
+  line-height: 1.4rem;
+  width: 21rem;
+  color: #A1B1BC;
+  margin-left: 1px;
+}
+
+.big {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 8.8rem;
+  margin-top: -5rem;
+}
+
+#last-p {
+  width: 977px;
+  height: 39px;
+  margin-top: -18px;
+}
+
+span {
+  text-align: end;
+  -webkit-transform: translate(22%, -3.4rem);
+          transform: translate(22%, -3.4rem);
+  font-weight: 900;
+  color: #A1B1BC;
+}
+
+#span {
+  text-align: end;
+  -webkit-transform: translate(42rem, -2.4rem);
+          transform: translate(42rem, -2.4rem);
+  font-weight: 900;
+}
+/*# sourceMappingURL=index.css.map */
